@@ -1,11 +1,18 @@
 import React from 'react'
 
-const Nav = () => {
-    return (
-        <nav>
-            this is the nav
+class Nav extends React.Component {
+    //state needed for hamburger modal
+    state = {
+        modal: false
+    }
+    render() {
+        return (
+            <nav>
+                this is the nav
         </nav>
-    )
+        )
+    }
+
 }
 
 export default Nav
