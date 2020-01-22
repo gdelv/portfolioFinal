@@ -5,10 +5,10 @@ import { IoIosPhonePortrait } from "react-icons/io";
 const Contact = () => {
     return (
         <div className='contact-container'>
-            <h2 className='contact-title' id='contact'>CONTACT ME!</h2>
+            <h2 className='contact-title' id='contact'>LETS CHAT!</h2>
             <div className='contact-cell'>
-               <IoIosPhonePortrait style/>
-            <p> (516) 864-3657</p> 
+               <IoIosPhonePortrait/>
+                <p> (516) 864-3657</p> 
             </div>
             
             <div className='contact-email'>
