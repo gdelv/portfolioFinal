@@ -10,11 +10,13 @@ nav {
   display: flex;
 
   /* flex-direction: row for desktop*/
-  flex-direction: column 
+  flex-direction: column;
 
 }
 
-
+main {
+  margin-bottom: -1em;
+}
 .profile-pic-container {
   display: flex;
   flex-direction: column;
@@ -157,7 +159,7 @@ nav h3 {
 
 .projects-container {
   /* border: 1px solid red; */
-  border-bottom: 1px solid rgb(221, 99, 97);
+  border-bottom: 5px solid rgb(221, 99, 97);
   padding: 1em;
   text-align: center;
   background-color: rgb(238,240,242);
@@ -198,4 +200,48 @@ nav h3 {
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+}
+
+.contact-container {
+  text-align: center;
+  background-color: rgb(238,240,242);
+  margin: 0em;
+}
+.contact-title {
+  margin: 0;
+  border-top: 9px solid rgb(221, 99, 97);
+}
+.form-container {
+  padding: 1em;
+}
+.contact-cell {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  min-width: 130px;
+  max-width: 130px;
+  margin: 0 auto;
+  justify-content: space-evenly;
+
+  /* border: 1px solid red; */
+  /* align-content: center; */
+}
+
+.contact-email {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto;
+  min-width: 210px;
+  max-width: 210px;
+  /* border: 1px solid red; */
+  justify-content: space-evenly;
+}
+
+footer {
+  border-bottom: 10px solid rgb(221, 99, 97);
+  margin: 0;
+  padding: 0em;
+  background-color: rgb(238,240,242);
+  text-align: center;
 }
