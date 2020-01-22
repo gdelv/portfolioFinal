@@ -5,7 +5,7 @@ import { DiJavascript, DiRuby, DiPostgresql } from "react-icons/di";
 const expressLogo = require('../images/express.jpeg')
 const xdLogo = require('../images/xdlogo.png')
 const reactBootstrapLogo = require('../images/reactbootstrap.png')
-
+const testPic = require('../images/test.jpg')
 
 export const languages = [
     {
@@ -51,5 +51,54 @@ export const languages = [
     {
         name: 'React-Bootstrap',
         logo: <img src={reactBootstrapLogo} />
+    }
+]
+
+export const projects = [
+    {
+        title: "Green Energy",
+        description: "My first website created using HTML, CSS, and JavaScript",
+        img: testPic,
+        webLink: "https://gdelv.github.io/fireWebsite",
+        repoLink: "https://github.com/gdelv/fireWebsite",
+        technologyUsed: [
+            {
+                name: 'HTML',
+                logo: <FaHtml5 size={50}/>
+            },
+            {
+                name: 'CSS',
+                logo: <FaCss3Alt size={50} />
+            },
+            {
+                name: 'JavaScript',
+                logo: <DiJavascript size={50} />
+            }
+        ]
+    },
+    {
+        title: "Prediction World",
+        description: "My first website created using React",
+        img: testPic,
+        webLink: "https://www.predictionworld.surge.sh",
+        repoLink: "https://github.com/gdelv/fantasyTALK",
+        technologyUsed: [
+            {
+                name: 'HTML',
+                logo: <FaHtml5 size={50}/>
+            },
+            {
+                name: 'CSS',
+                logo: <FaCss3Alt size={50} />
+            },
+            {
+                name: 'JavaScript',
+                logo: <DiJavascript size={50} />
+            },
+            {
+                name: 'React',
+                logo: <FaReact size={50} />
+            }
+        ]
     }
 ]
