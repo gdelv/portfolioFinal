@@ -1,8 +1,10 @@
 nav {
-  border: 1px solid black;
+  /* border: 12px solid black; */
   background-color: rgb(221, 99, 97);
+  /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
   height: 100vh;
   width: 100%;
+
 }
 .container {
   display: flex;
@@ -11,3 +13,4 @@ nav {
   flex-direction: column 
 
 }
+

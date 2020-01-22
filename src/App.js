@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Container from './Container'
-import Nav from './Nav'
+import Container from './screens/Container'
+import Nav from './screens/Nav'
 
 class App extends React.Component {
   //state needed for dark mode switch
