@@ -18,12 +18,13 @@ class Nav extends React.Component {
                 <h1 className='name'>Giusseppe <br></br>
                     Del Vecchio
                 </h1>
+                <h3>Full Stack Developer</h3>
 
                 <a className='email' href='mailto:giudelvecchio@gmail.com?subject=Hello%20there%20
                 &amp;body=Would%20love%20to%20get%20to%20know%20more%20about%20you!'> <AiOutlineMail /> giudelvecchio@gmail.com</a>
 
                 <div className='nav-links-container'>
-                    <a href='#'>About</a>
+                    <a href='#about'>About</a>
                     <a href='#'>Projects</a>
                     <a href='#'>Contact</a>
                 </div>
