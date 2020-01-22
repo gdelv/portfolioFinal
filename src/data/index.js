@@ -11,7 +11,6 @@ export const languages = [
     {
         name: 'HTML',
         logo: <FaHtml5 size={175} style={{color: '#e44d26'}}/>  
-        // logo: <img src={htmlLogo} />
     },
     {
         name: 'CSS',
