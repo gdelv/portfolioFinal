@@ -42,15 +42,15 @@ export const languages = [
     },
     {
         name: 'Express.js',
-        logo: <img src={expressLogo} />
+        logo: <img src={expressLogo} alt='express-logo'/>
     }, 
     {
         name: 'Adobe XD',
-        logo: <img src={xdLogo} />
+        logo: <img src={xdLogo} alt='adobeXD-logo' />
     },
     {
         name: 'React-Bootstrap',
-        logo: <img src={reactBootstrapLogo} />
+        logo: <img src={reactBootstrapLogo} alt='react-bootstrap-logo'/>
     }
 ]
 
@@ -64,15 +64,15 @@ export const projects = [
         technologyUsed: [
             {
                 name: 'HTML',
-                logo: <FaHtml5 size={50}/>
+                logo: <FaHtml5 size={50} style={{color: '#e44d26'}}/>
             },
             {
                 name: 'CSS',
-                logo: <FaCss3Alt size={50} />
+                logo: <FaCss3Alt size={50} style={{color: '#379ad6'}}/>
             },
             {
                 name: 'JavaScript',
-                logo: <DiJavascript size={50} />
+                logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
             }
         ]
     },
@@ -85,19 +85,19 @@ export const projects = [
         technologyUsed: [
             {
                 name: 'HTML',
-                logo: <FaHtml5 size={50}/>
+                logo: <FaHtml5 size={50} style={{color: '#e44d26'}}/>
             },
             {
                 name: 'CSS',
-                logo: <FaCss3Alt size={50} />
+                logo: <FaCss3Alt size={50} style={{color: '#379ad6'}} />
             },
             {
                 name: 'JavaScript',
-                logo: <DiJavascript size={50} />
+                logo: <DiJavascript size={50} style={{color: '#dfc12d'}} />
             },
             {
                 name: 'React',
-                logo: <FaReact size={50} />
+                logo: <FaReact size={50} style={{color: '#02d2f8'}}/>
             }
         ]
     }

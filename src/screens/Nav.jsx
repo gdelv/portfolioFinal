@@ -25,12 +25,12 @@ class Nav extends React.Component {
 
                 <div className='nav-links-container'>
                     <a href='#about'>About</a>
-                    <a href='#'>Projects</a>
+                    <a href='#projects'>Projects</a>
                     <a href='#'>Contact</a>
                 </div>
 
                 <div className='social-media-links'>
-                    <a href='https://www.linkedin.com/in/giusseppe-del-vecchio/' target='_blank'>
+                    <a href='https://www.linkedin.com/in/giusseppe-del-vecchio/' target='_blank' rel='noopener noreferrer'>
                         <FaLinkedin size={40} style={{color: 'black'}}/>
                     </a>
 
