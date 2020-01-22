@@ -7,7 +7,6 @@ const About = () => {
       <p>I am a civil engineering student turned full stack developer.</p>
 
       <p>
-        {" "}
         My background in engineering has provided me with perseverance and
         troubleshooting skills to learn new concepts at a fast rate and work
         through any issues along the way.
@@ -16,7 +15,7 @@ const About = () => {
         Creating full stack applications requires a keen eye and an organized
         approach within collaborative work environments. Having been through
         several different types of industry, I work well with others becoming
-        highly adaptable with my positive demeanor and open mindedness.{" "}
+        highly adaptable with my positive demeanor and open mindedness.
       </p>
 
       <p>
