@@ -1,10 +1,10 @@
 import React from 'react'
 
-const encode = data => {
+const encode = (data) => {
     return Object.keys(data)
-        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])).join("&")
-}
-
+        .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+        .join("&");
+  }
 class ContactForm extends React.Component {
     constructor(props) {
         super(props);
@@ -23,7 +23,7 @@ class ContactForm extends React.Component {
         })
             .then(() => alert('Success!'))
             .catch(error => alert(error));
-
+        console.log(this.state)
         e.preventDefault();
     }
 
@@ -35,7 +35,8 @@ class ContactForm extends React.Component {
         const { name, email, message } = this.state;
         return (
             <div className='form-container'>
-                <form name='contact' data-netlify="true" onSubmit={this.handleSubmit}>
+                <form name='contact' method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true" onSubmit={this.handleSubmit}>
+                    <input type="hidden" name="form-name" value="contact" />
                     <p>
                         <label>
                             Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
