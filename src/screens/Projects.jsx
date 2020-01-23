@@ -4,7 +4,7 @@ import { projects } from "../data";
 const Projects = () => {
     return (
         <>
-            <h2 className='projects-title' id="projects">Projects</h2>
+            <h2 className='projects-title' id="projects">PROJECTS</h2>
             {projects.map(project => {
                 return (
                     <div className='projects-container'>
