@@ -259,3 +259,31 @@ footer {
   background-color: rgb(238,240,242);
   text-align: center;
 }
+footer p {
+  margin: 0;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+  }
+  nav {
+    position: fixed;
+    width: 20%;
+  }
+  .content-container {
+    position: relative;
+    width: 80%;
+    left: 20%;
+  }
+  .language-card {
+    margin: 2em 4em;
+  }
+  .about-container p {
+    margin: 1em;
+    padding: 0 1.5em;
+  }
+  
+
+}

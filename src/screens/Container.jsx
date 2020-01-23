@@ -12,7 +12,7 @@ class Container extends React.Component {
 
     render() {
         return (
-            <>
+            <div className='content-container'>
                 <main>
                     <About />
                     <Languages />
@@ -22,7 +22,7 @@ class Container extends React.Component {
                 <footer>
                     <Footer />
                 </footer>
-            </>
+            </div>
         )
 
     }
