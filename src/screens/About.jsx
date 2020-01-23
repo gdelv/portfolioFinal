@@ -23,7 +23,7 @@ const About = () => {
         ideas.
       </p>
 
-      <form action='https://www.docdroid.net/D37HPv2/giusseppe-resume.pdf' target='_blank'>
+      <form action='https://drive.google.com/file/d/1TWgtx2Zu7NLUUAbHDxVGRFOifdxDxqm8/view?usp=sharing' target='_blank'>
         <button className='resume-button'>View Resume</button>
       </form>
     </div>
