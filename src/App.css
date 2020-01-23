@@ -1,10 +1,15 @@
 nav {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   background-color: rgb(221, 99, 97);
   /* background-image: linear-gradient(to right, #ff8177 0%, #ff867a 0%, #ff8c7f 21%, #f99185 52%, #cf556c 78%, #b12a5b 100%); */
-  height: 100vh;
+  min-height: 100vh;
+
+  max-height: 700px;
   width: 100%;
 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 .container {
   display: flex;
@@ -21,14 +26,14 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 1em;
+  padding-top: 2em;
 }
 .profile-pic-container img {
   border: 4px solid white;
   border-radius: 7em;
   display: block;
-  width: 200px;
-  height: 200px;
+  width: 125px;
+  height: 125px;
 }
 nav h3 {
   text-align: center;
@@ -47,10 +52,11 @@ nav h3 {
   text-align: center;
   color: black;
   font-size: 20px;
+
 }
 
 .nav-links-container {
-  margin-top: 1em;
+  /* margin-top: 1em; */
   /* border: 2px solid black; */
   display: flex;
   justify-content: space-evenly;
@@ -66,7 +72,7 @@ nav h3 {
 }
 
 .social-media-links {
-  margin-top: 1em;
+  padding: 1em 0 2em 0;
   display: flex;
   justify-content: space-evenly;
 }
@@ -252,4 +258,32 @@ footer {
   padding: 0em;
   background-color: rgb(238,240,242);
   text-align: center;
+}
+footer p {
+  margin: 0;
+}
+
+
+@media screen and (min-width: 1000px) {
+  .container {
+    flex-direction: row;
+  }
+  nav {
+    position: fixed;
+    width: 20%;
+  }
+  .content-container {
+    position: relative;
+    width: 80%;
+    left: 20%;
+  }
+  .language-card {
+    margin: 2em 4em;
+  }
+  .about-container p {
+    margin: 1em;
+    padding: 0 1.5em;
+  }
+  
+
 }
