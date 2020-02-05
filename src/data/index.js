@@ -5,6 +5,8 @@ import { DiJavascript, DiRuby, DiPostgresql } from "react-icons/di";
 const xdLogo = require('../images/xdlogo.png')
 const testPic = require('../images/test.jpg')
 const recetaPic = require('../images/MobileRecipes.png')
+const mealPrepPic = require('../images/mealPrep.png')
+const groceryWorldPic = require('../images/groceryWorld.png')
 
 export const languages = [
     {
@@ -78,7 +80,7 @@ export const projects = [
     {
         title: "Grocery World",
         description: "Got tired of using notes to remember what groceries to buy during the week, so I created my own website so my wife and I can see what's needed at anytime. For the front end I used React to fetch data from mockAPI server with all of my weekly grocery data.",
-        img: testPic,
+        img: groceryWorldPic,
         webLink: "http://shoppinglist2019.surge.sh/",
         repoLink: "https://github.com/gdelv/shopping_list_client",
         technologyUsed: [
@@ -95,7 +97,7 @@ export const projects = [
     {
         title: "Meal Prep",
         description: "Built with a team of 2 UX/UI designers and 2 other software engineers, a website where a user can browse through meals per different weeks and choose which they would like delivered. In order to build out the product in only 3 days we used React Bootstrap to match the design requested.",
-        img: testPic,
+        img: mealPrepPic,
         webLink: "http://mealprep.surge.sh/",
         repoLink: "https://github.com/gdelv/CollabProject",
         technologyUsed: [
