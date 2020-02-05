@@ -21,7 +21,7 @@ class ContactForm extends React.Component {
             headers: { "Content-Type": "application/x-www-form-urlencoded" },
             body: encode({ "form-name": "contact", ...this.state })
         })
-            .then(() => alert('Success!'))
+            .then(() => alert('Thanks for sending a message! I will respond as soon as I can.'))
             .catch(error => alert(error));
         console.log(this.state)
         e.preventDefault();
