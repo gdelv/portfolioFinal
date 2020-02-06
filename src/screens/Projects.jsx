@@ -1,5 +1,6 @@
 import React from 'react'
 import { projects } from "../data";
+import { FaLink, FaGithub } from "react-icons/fa";
 
 const Projects = () => {
     return (
@@ -13,10 +14,14 @@ const Projects = () => {
                         <img src={project.img} alt='project' />
                         <div className='project-buttons-container'>
                             <form action={project.webLink} target='_blank'>
-                                <button type='submit'>Web Link</button>
+                                <button type='submit'>
+                                    <FaLink size={50} />
+                                </button>
                             </form>
                             <form action={project.repoLink} target='_blank'>
-                                <button type='submit'>Repo Link</button>
+                                <button type='submit'>
+                                    <FaGithub size={50} />
+                                </button>
                             </form>
                         </div>
                         <div className='tech-container'>

@@ -3,8 +3,7 @@ import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from "react-icons/fa";
 import { DiJavascript, DiRuby, DiPostgresql } from "react-icons/di";
 
 const xdLogo = require('../images/xdlogo.png')
-// const testPic = require('../images/test.jpg')
-const recetaPic = require('../images/MobileRecipes.png')
+const recetaPic = require('../images/RecetaFinal.png')
 const mealPrepPic = require('../images/mealPrep.png')
 const groceryWorldPic = require('../images/groceryWorld.png')
 
