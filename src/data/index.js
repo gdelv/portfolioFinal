@@ -3,7 +3,7 @@ import { FaHtml5, FaCss3Alt, FaNodeJs, FaReact } from "react-icons/fa";
 import { DiJavascript, DiRuby, DiPostgresql } from "react-icons/di";
 
 const xdLogo = require('../images/xdlogo.png')
-const testPic = require('../images/test.jpg')
+// const testPic = require('../images/test.jpg')
 const recetaPic = require('../images/MobileRecipes.png')
 const mealPrepPic = require('../images/mealPrep.png')
 const groceryWorldPic = require('../images/groceryWorld.png')
@@ -74,23 +74,10 @@ export const projects = [
             {
                 name: 'Ruby',
                 logo: <DiRuby size={50} style={{color: '#d31904'}}/>
-            }
-        ]
-    },
-    {
-        title: "Grocery World",
-        description: "Got tired of using notes to remember what groceries to buy during the week, so I created my own website so my wife and I can see what's needed at anytime. For the front end I used React to fetch data from mockAPI server with all of my weekly grocery data.",
-        img: groceryWorldPic,
-        webLink: "http://shoppinglist2019.surge.sh/",
-        repoLink: "https://github.com/gdelv/shopping_list_client",
-        technologyUsed: [
-            {
-                name: 'React.js',
-                logo: <FaReact size={50} style={{color: '#02d2f8'}}/>
             },
             {
-                name: 'JavaScript',
-                logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
+                name: 'Ruby on Rails',
+                logo: <i class="devicon-rails-plain-wordmark colored" style={{fontSize: '3.5em', textAlign: 'center'}}></i>
             }
         ]
     },
@@ -113,6 +100,23 @@ export const projects = [
                 name: 'Bootstrap',
                 logo: <i class="devicon-bootstrap-plain colored" style={{fontSize:'3em'}}></i>
 
+            }
+        ]
+    },
+    {
+        title: "Grocery World",
+        description: "Got tired of using notes to remember what groceries to buy during the week, so I created my own website so my wife and I can see what's needed at anytime. For the front end I used React to fetch data from mockAPI server with all of my weekly grocery data.",
+        img: groceryWorldPic,
+        webLink: "http://shoppinglist2019.surge.sh/",
+        repoLink: "https://github.com/gdelv/shopping_list_client",
+        technologyUsed: [
+            {
+                name: 'React.js',
+                logo: <FaReact size={50} style={{color: '#02d2f8'}}/>
+            },
+            {
+                name: 'JavaScript',
+                logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
             }
         ]
     }
