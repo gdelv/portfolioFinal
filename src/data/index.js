@@ -10,31 +10,31 @@ const groceryWorldPic = require('../images/groceryWorld.png')
 export const languages = [
     {
         name: 'JavaScript',
-        logo: <DiJavascript size={175} style={{color: '#dfc12d'}}/>
+        logo: <DiJavascript size={90} style={{color: '#dfc12d'}}/>
     },
     {
         name: 'Node.js',
-        logo: <FaNodeJs size={175} style={{color: '#7bb800'}}/>
+        logo: <FaNodeJs size={90} style={{color: '#7bb800'}}/>
     },
     {
         name: 'React.js',
-        logo: <FaReact size={175} style={{color: '#02d2f8'}}/>
+        logo: <FaReact size={90} style={{color: '#02d2f8'}}/>
     },
     {
         name: 'Ruby',
-        logo: <DiRuby size={175} style={{color: '#d31904'}}/>
+        logo: <DiRuby size={90} style={{color: '#d31904'}}/>
     },
     {
         name: 'Ruby on Rails',
-        logo: <i class="devicon-rails-plain-wordmark colored" style={{fontSize: '11em', textAlign: 'center'}}></i>
+        logo: <i class="devicon-rails-plain-wordmark colored" style={{fontSize: '90px', textAlign: 'center'}}></i>
     },
     {
         name: 'PostgreSQL',
-        logo: <DiPostgresql size={175} style={{color: '#33638c'}}/>
+        logo: <DiPostgresql size={90} style={{color: '#33638c'}}/>
     },
     {
         name: 'Express.js',
-        logo: <i class="devicon-express-original-wordmark" style={{fontSize: '11em', textAlign: 'center'}}></i>
+        logo: <i class="devicon-express-original-wordmark" style={{fontSize: '90px', textAlign: 'center'}}></i>
     }, 
     {
         name: 'Adobe XD',
@@ -42,15 +42,15 @@ export const languages = [
     },
     {
         name: 'Bootstrap',
-        logo: <i class="devicon-bootstrap-plain colored" style={{fontSize: '11em', textAlign: 'center'}}></i>
+        logo: <i class="devicon-bootstrap-plain colored" style={{fontSize: '90px', textAlign: 'center'}}></i>
     },
     {
         name: 'HTML',
-        logo: <FaHtml5 size={175} style={{color: '#e44d26'}}/>  
+        logo: <FaHtml5 size={90} style={{color: '#e44d26'}}/>  
     },
     {
         name: 'CSS',
-        logo: <FaCss3Alt size={175} style={{color: '#379ad6'}}/>
+        logo: <FaCss3Alt size={90} style={{color: '#379ad6'}}/>
     }
 ]
 

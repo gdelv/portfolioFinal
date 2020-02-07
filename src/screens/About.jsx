@@ -10,17 +10,10 @@ const About = () => {
         My background in engineering has provided me with perseverance and
         troubleshooting skills to learn new concepts at a fast rate.
       </p>
-
-      <p>
-        In no other engineering discipline can you just have an idea, start
-        building it, show it to users, and iterate with little capital and low
-        barrier to entry. In civil engineering, you essentially need a
-        construction company and a lot of money to design and build out an idea.
-      </p>
       <p>
         I have always enjoyed working with computers and switching fields to
         software engineering has been a smooth transition, where now I have the
-        ability of building front end products to address my own or any user
+        ability of building front end products to address any user
         needs.
       </p>
       <p>
@@ -36,7 +29,7 @@ const About = () => {
       </p>
 
       <form
-        action="https://drive.google.com/file/d/1TWgtx2Zu7NLUUAbHDxVGRFOifdxDxqm8/view?usp=sharing"
+        action="https://drive.google.com/file/d/10QnAWpwkyFLujv9Wm74F-8ll6H8P0PUc/view?usp=sharing"
         target="_blank"
       >
         <button className="resume-button">View Resume</button>
