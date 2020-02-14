@@ -38,18 +38,21 @@ class ContactForm extends React.Component {
                 <form name='contact' method="POST" class="contact__form" netlify-honeypot="bot-field" data-netlify="true" onSubmit={this.handleSubmit}>
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
+                    <input type="text" name="name" value={name} onChange={this.handleChange} />
                         <label>
-                            Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+                            Your Name: 
                         </label>
                     </p>
                     <p>
+                    <input type="email" name="email" value={email} onChange={this.handleChange} />
                         <label>
-                            Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+                            Your Email: 
                         </label>
                     </p>
                     <p>
+                    <textarea name="message" value={message} onChange={this.handleChange} />
                         <label>
-                            Message: <textarea name="message" value={message} onChange={this.handleChange} />
+                            Message: 
                         </label>
                     </p>
                     <p>
