@@ -45,18 +45,18 @@ class ContactForm extends React.Component {
                     </p>
                     <p>
                     <input type="email" name="email" value={email} onChange={this.handleChange} />
-                        <label>
+                        <label id='id-label'>
                             Your Email: 
                         </label>
                     </p>
                     <p>
                     <textarea name="message" value={message} onChange={this.handleChange} />
-                        <label>
+                        <label id='text-label'>
                             Message: 
                         </label>
                     </p>
                     <p>
-                        <button type="submit">Send</button>
+                        <button type="submit" className='send-button'>Send</button>
                     </p>
                 </form>
             </div>
