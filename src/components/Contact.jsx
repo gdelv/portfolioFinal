@@ -8,7 +8,7 @@ const Contact = () => {
         <div className='contact-container'>
             <h2 className='contact-title' id='contact'>LETS CHAT!</h2>
             <div className='contact-cell'>
-               <IoIosPhonePortrait/>
+                <IoIosPhonePortrait/>
                 <p> (516) 864-3657</p> 
             </div>
             

@@ -4,7 +4,6 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 const profilePic = require('../images/profile-pic.jpg')
 
 class Nav extends React.Component {
-    //state needed for scroll to top modal button
     state = {
         modal: false
     }
@@ -38,8 +37,11 @@ class Nav extends React.Component {
                         <FaGithub size={40} style={{color: 'black'}}/>
                     </a>
                 </div>
-
                 {/* include button to view more? */}
+                <div className='scroll'>
+                    <a href="#about"><span></span>Scroll</a>
+                </div>
+                
             </nav>
         )
     }

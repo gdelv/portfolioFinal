@@ -1,16 +1,11 @@
 import React from 'react'
 import Footer from './Footer'
-import About from './About'
-import Languages from './Languages'
-import Projects from './Projects'
-import Contact from './Contact'
-//state for button to scroll down to "see more"
-class Container extends React.Component {
-    state = {
+import About from '../components/About'
+import Languages from '../components/Languages'
+import Projects from '../components/Projects'
+import Contact from '../components/Contact'
 
-    }
-
-    render() {
+const Container = () => {
         return (
             <div className='content-container'>
                 <main>
@@ -24,8 +19,7 @@ class Container extends React.Component {
                 </footer>
             </div>
         )
-
-    }
 }
+
 
 export default Container
