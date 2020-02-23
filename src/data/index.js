@@ -21,6 +21,10 @@ export const languages = [
         logo: <FaReact size={90} style={{color: '#02d2f8'}}/>
     },
     {
+        name: 'React Native',
+        logo: <FaReact size={90} style={{color: '#02d2f8'}}/>
+    },
+    {
         name: 'Ruby',
         logo: <DiRuby size={90} style={{color: '#d31904'}}/>
     },
