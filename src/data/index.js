@@ -80,10 +80,10 @@ export const projects = [
     },
     {
         title: "Nike Jordan Clone",
-        description: "A cloned Nike Jordan website built from scratch with our own code. The goal was to collaborate and create a company standard website once again to show businesses that we are approaching that level of knowledge. As of now it is a static website that implements cool ternary logic for the navigation bar that changes class and state based on window height. It is made to look almost identical to the nike jordan website. Currently it is only mobile responsive and only the landing page is finished, but the backend is fully setup and we will have cart implementation and a shoe detail page in the future.",
+        description: "A full stack cloned Nike Jordan website built from scratch using React and Ruby on Rails. The goal was to collaborate and create a company standard website once again to show businesses that we are approaching that level of knowledge. As of now it is a static website that implements cool ternary logic for the navigation bar that changes class and state based on window height. It is made to look almost identical to the nike jordan website. Currently it is only mobile responsive and only the landing page is finished, but the backend is fully setup and we will have cart implementation and a shoe detail page in the future.",
         img: jordanGif,
-        webLink: "https://fusionwireless.netlify.com/",
-        repoLink: "https://github.com/gdelv/fusionWireless",
+        webLink: "https://nikejordan.netlify.com/",
+        repoLink: "https://github.com/gdelv/jordanFrontend",
         technologyUsed: [
             {
                 name: 'React.js',
@@ -92,6 +92,14 @@ export const projects = [
             {
                 name: 'JavaScript',
                 logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
+            },
+            {
+                name: 'Ruby',
+                logo: <DiRuby size={50} style={{color: '#d31904'}}/>
+            },
+            {
+                name: 'Ruby on Rails',
+                logo: <i class="devicon-rails-plain-wordmark colored" style={{fontSize: '3.5em', textAlign: 'center'}}></i>
             }
         ]
     },
