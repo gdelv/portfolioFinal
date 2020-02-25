@@ -6,6 +6,8 @@ const xdLogo = require('../images/xdlogo.png')
 const recetaPic = require('../images/RecetaFinal.png')
 const mealPrepPic = require('../images/mealPrep.png')
 const groceryWorldPic = require('../images/groceryWorld.png')
+const fusionGif = require('../images/fusion-gif.gif')
+const jordanGif = require('../images/jordan-gif.gif')
 
 export const languages = [
     {
@@ -59,6 +61,41 @@ export const languages = [
 ]
 
 export const projects = [
+    {
+        title: "Fusion Wireless Clone",
+        description: "A project completed in collaboration to create a clone of a company made website (fusionwireless.com). Our goal was to show to businesses that we can code up to company standard and produce a final product from scratch. Currently only mobile responsive but implements the Google Maps Api and updating state components",
+        img: fusionGif,
+        webLink: "https://fusionwireless.netlify.com/",
+        repoLink: "https://github.com/gdelv/fusionWireless",
+        technologyUsed: [
+            {
+                name: 'React.js',
+                logo: <FaReact size={50} style={{color: '#02d2f8'}}/>
+            },
+            {
+                name: 'JavaScript',
+                logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
+            }
+        ]
+    },
+    {
+        title: "Nike Jordan Clone",
+        description: "A cloned Nike Jordan website built from scratch with our own code. The goal was to collaborate and create a company standard website once again to show businesses that we are approaching that level of knowledge. As of now it is a static website that implements cool ternary logic for the navigation bar that changes class and state based on window height. It is made to look almost identical to the nike jordan website. Currently it is only mobile responsive and only the landing page is finished, but the backend is fully setup and we will have cart implementation and a shoe detail page in the future.",
+        img: jordanGif,
+        webLink: "https://fusionwireless.netlify.com/",
+        repoLink: "https://github.com/gdelv/fusionWireless",
+        technologyUsed: [
+            {
+                name: 'React.js',
+                logo: <FaReact size={50} style={{color: '#02d2f8'}}/>
+            },
+            {
+                name: 'JavaScript',
+                logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
+            }
+        ]
+    },
+    
     {
         title: "Receta",
         description: "A full stack website where my back end was all done on Ruby on Rails to hold all my recipe data and I used Heroku to host the server. Using React I was able to connect the front end to my back end recipe server and render my recipe information using a mobile responsive approach. To test deploy the front end I used Surge and once complete I used Netlify to host the front end server.",
