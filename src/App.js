@@ -25,7 +25,7 @@ class App extends React.Component {
   render() {
     return (
       <div className={`container ${this.state.modeName}`}>
-        <button className='darkmode-button' onClick={() => this.handleClick()}>Dark Mode</button>
+        {/* <button className='darkmode-button' onClick={() => this.handleClick()}>Dark Mode</button> */}
         <Nav />
         <Container />
       </div>
