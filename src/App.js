@@ -5,14 +5,27 @@ import Nav from './screens/Nav'
 
 class App extends React.Component {
   //state needed for dark mode switch
-  state = {
-    mode: "",
-    modeName: "Light"
+  constructor() {
+    super()
+    this.state = {
+      mode: "",
+      modeName: ""
+    }
   }
+
+  handleClick = () => {
+    if(this.state.modeName === "") {
+      this.setState({ modeName: "dark" })
+    } else if(this.state.modeName === "dark") {
+      this.setState({ modeName: "" })
+    }
+  }
+  
 
   render() {
     return (
-      <div className="container">
+      <div className={`container ${this.state.modeName}`}>
+        <button className='darkmode-button' onClick={() => this.handleClick()}>Dark Mode</button>
         <Nav />
         <Container />
       </div>

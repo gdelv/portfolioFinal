@@ -8,6 +8,7 @@ const mealPrepPic = require('../images/mealPrep.png')
 const groceryWorldPic = require('../images/groceryWorld.png')
 const fusionGif = require('../images/fusion-gif.gif')
 const jordanGif = require('../images/jordan-gif.gif')
+const duckClick = require('../images/duckClick.png')
 
 export const languages = [
     {
@@ -75,6 +76,31 @@ export const projects = [
             {
                 name: 'JavaScript',
                 logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
+            }
+        ]
+    },
+    {
+        title: "Duck Click",
+        description: "My own spinoff of the classic game duck hunt but using Express for the backend server and HTML, CSS and JavaScript for my front end.",
+        img: duckClick,
+        webLink: "https://duck-click.herokuapp.com/",
+        repoLink: "https://github.com/gdelv/duckHunt",
+        technologyUsed: [
+            {
+                name: 'Express.js',
+                logo: <i class="devicon-express-original-wordmark" style={{fontSize: '50px', textAlign: 'center'}}></i>
+            },
+            {
+                name: 'JavaScript',
+                logo: <DiJavascript size={50} style={{color: '#dfc12d'}}/>
+            },
+            {
+                name: 'HTML',
+                logo: <FaHtml5 size={50} style={{color: '#e44d26'}}/>  
+            },
+            {
+                name: 'CSS',
+                logo: <FaCss3Alt size={50} style={{color: '#379ad6'}}/>
             }
         ]
     },

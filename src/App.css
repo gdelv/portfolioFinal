@@ -1,3 +1,14 @@
+.darkmode-button {
+  position: absolute;
+  z-index: 9999;
+  border: 1px solid red;
+}
+
+.containerdark {
+  background-color: black !important; 
+}
+
+
 nav {
   background-color: rgb(221, 99, 97);
   min-height: 100vh;
@@ -326,7 +337,7 @@ nav h3 {
   justify-content: space-evenly;
   flex-wrap: wrap;
   font-family: 'Fira Sans', sans-serif;
-
+  align-items: center;
 }
 
 .contact-container {
